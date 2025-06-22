@@ -9,13 +9,14 @@
 <body>
  
 <h1>PetSitter Guardião </h1>
+
 <ul>
-    <li><a href="index.html">Home</a></li>
+    <li><a href="indexHome.html">Home</a></li>
     <li><a href="quem-somos.html">Quem Somos</a></li>
     <li><a href="produtos.html">Produtos</a></li>
-    <li>Passeios, exercicios, brincadeiras, cuidados com a higiene do local</a></li>
     <li><a href="curiosidades.html">Curiosidades</a></li>
-    </ul>
+    
+</ul>
 
 <h3> Seu cachorro feliz e saudável com nossos passeios diários</h3>
 <img src="" alt="">
@@ -46,11 +47,16 @@ R$50
 <p>Horários flexíveis</p>
 <button class="btn" onclick="abrirContato()">Contratar</button>
 
-<h2>Entre em Contato</h2>
-<p>"Seu Nome"</p>
-<p>Seu Telefone</p>
-<p>"Seu Mensagem"</p>
-<p>Enviar</p>
+<<h2>Entre em Contato</h2>
+<form>
+    <label for="nome">Nome:</label><br>
+    <input type="text" id="nome" name="nome"><br>
+    <label for="telefone">Telefone:</label><br>
+    <input type="text" id="telefone" name="telefone"><br>
+    <label for="mensagem">Mensagem:</label><br>
+    <textarea id="mensagem" name="mensagem"></textarea><br>
+    <button type="submit">Enviar</button>
+</form>
 
 
     
